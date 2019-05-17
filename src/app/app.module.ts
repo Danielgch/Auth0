@@ -23,9 +23,7 @@ import { AuthService } from './services/auth.service';
     BrowserModule,
     APP_ROUTING
   ],
-  providers: [
-    AuthService
-  ],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

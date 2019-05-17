@@ -1,5 +1,3 @@
-// src/app/auth/auth.service.ts
-
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import * as auth0 from 'auth0-js';
@@ -12,7 +10,7 @@ export class AuthService {
   private _expiresAt: number;
 
   auth0 = new auth0.WebAuth({
-    clientID: 'Gz6tyYSkcA1zW3IumiL3MW3gDOP2NT6F',
+    clientID: 'k0H0ODNu0hjuMiwE6amhKgO5jZ85p52r',
     domain: 'dev-o5msx2tl.auth0.com',
     responseType: 'token id_token',
     redirectUri: 'http://localhost:3000/callback',
